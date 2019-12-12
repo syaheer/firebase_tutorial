@@ -8,6 +8,16 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
         android:id="@+id/text_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,17 +38,10 @@
         android:inputType="textPassword"/>
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/button_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Login"/>
-
-    <TextView
-        android:id="@+id/text_signup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign up"
-        android:layout_marginTop="20dp"/>
+        android:text="Sign up"/>
 
 </LinearLayout>
